@@ -1,0 +1,93 @@
+<!doctype html>
+<html class="no-js" lang="">
+  <head>
+    <meta charset="utf-8">
+    <meta name="description" content="">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>mosaic grid</title>
+
+    <link rel="apple-touch-icon" href="apple-touch-icon.png">
+    <!-- Place favicon.ico in the root directory -->
+
+    <!-- build:css styles/vendor.css -->
+    <!-- bower:css -->
+    <!-- endbower -->
+    <!-- endbuild -->
+
+    <!-- build:css styles/main.css -->
+    <link rel="stylesheet" href="styles/main.css">
+    <!-- endbuild -->
+    
+    <!-- build:js scripts/vendor/modernizr.js -->
+    <script src="/bower_components/modernizr/modernizr.js"></script>
+    <!-- endbuild -->
+  </head>
+  <body>
+    <!--[if lt IE 10]>
+      <p class="browserupgrade">You are using an <strong>outdated</strong> browser. Please <a href="http://browsehappy.com/">upgrade your browser</a> to improve your experience.</p>
+    <![endif]-->
+    
+    
+    <div class="container">
+      <div class="tiles-hld">
+
+        <div class="tile__row tile__row--0">
+          <div class="tile__item tile__w--1-3 tile__h--3"></div>
+          <div class="tile__item tile__w--2-3 tile__h--4"></div>
+        </div>
+
+        <div class="tile__row tile__row--1">
+          <div class="tile__item tile__w--1-3 tile__h--4 tile__mt--1">
+            <div class="tile__item tile__item--inner tile__w--1-1 tile__h--1-2 mb-only">foto</div>
+            <div class="tile__item tile__item--inner tile__w--1-2 tile__h--1-2 mt-only gutter gutter--r">text</div>
+            <div class="tile__item tile__item--inner tile__w--1-2 tile__h--1-2 mt-only gutter gutter--l">foto</div>
+            </div>
+          <div class="tile__item tile__w--1-3 tile__h--3"></div>
+          <div class="tile__item tile__w--1-3 tile__h--1">
+            <div class="tile__item tile__item--inner tile__w--1-2 tile__h--1-1 no-m gutter gutter--r">text</div>
+            <div class="tile__item tile__item--inner tile__w--1-2 tile__h--1-1 no-m gutter gutter--l">foto</div>
+          </div>
+          <!-- <div class="tile__item tile__w--1-3 tile__h--1"></div> -->
+        </div>
+
+        <div class="tile__row tile__row--2">
+          <div class="tile__item tile__w--2-3 tile__h--2"></div>
+          <div class="tile__item tile__w--1-3 tile__h--1 tile__mt--2"></div>
+          <div class="tile__item tile__w--1-3 tile__h--3"></div>
+        </div>
+
+        <div class="tile__row tile__row--3">
+          <div class="tile__item tile__w--1-3 tile__h--3 tile__mt--3"></div>
+          <div class="tile__item tile__w--1-3 tile__h--3 tile__mt--3"></div>
+          <div class="tile__item tile__w--1-3 tile__h--1">
+            <div class="tile__item tile__item--inner tile__w--1-2 tile__h--1-1 no-m gutter gutter--r">text</div>
+            <div class="tile__item tile__item--inner tile__w--1-2 tile__h--1-1 no-m gutter gutter--l">foto</div>
+          </div>
+        </div>
+
+      </div>
+    </div>
+
+
+    <!-- Google Analytics: change UA-XXXXX-X to be your site's ID. -->
+    <script>
+      (function(b,o,i,l,e,r){b.GoogleAnalyticsObject=l;b[l]||(b[l]=
+      function(){(b[l].q=b[l].q||[]).push(arguments)});b[l].l=+new Date;
+      e=o.createElement(i);r=o.getElementsByTagName(i)[0];
+      e.src='https://www.google-analytics.com/analytics.js';
+      r.parentNode.insertBefore(e,r)}(window,document,'script','ga'));
+      ga('create','UA-XXXXX-X');ga('send','pageview');
+    </script>
+
+    <!-- build:js scripts/vendor.js -->
+    <!-- bower:js -->
+    <script src="/bower_components/jquery/dist/jquery.js"></script>
+    <script src="/bower_components/modernizr/modernizr.js"></script>
+    <!-- endbower -->
+    <!-- endbuild -->
+    
+    <!-- build:js scripts/main.js -->
+    <script src="scripts/main.js"></script>
+    <!-- endbuild -->
+  </body>
+</html>
